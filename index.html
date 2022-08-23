@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Raleway:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="page">
     <!-- Hat -->
     <header class="header">
+        
         <nav class="nav">
             <a href="./index.html" class="logo">
                 <img src="./images/header/page-logo.png" alt="Barbershop logo" class="logo-img">
@@ -35,33 +40,33 @@
     </header>
     <main>
         <!-- Hero section -->
-        <section class="section">
+        <section class="hero">
             <ul class="list">
                 <li class="list-item">
-                    <a href="https://instagram.com" target="_blank" rel="noopener norefferer">
+                    <a href="https://instagram.com" target="_blank" rel="noopener norefferer" class="social-link">
                         Instagram
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="https://youtube.com" target="_blank" rel="noopener norefferer">
+                    <a href="https://youtube.com" target="_blank" rel="noopener norefferer" class="social-link">
                         YouTube
                     </a>
                 </li>
             </ul>
             <div class="group">
-                <p class="upper-title">A hair salon for men in Kyiv</p>
-                <h1 class="main-title">BarberShop</h1>
+                <p class="under-title">A hair salon for men in Kyiv</p>
+                <h1 class="hero-title">BarberShop</h1>
                 <p class="sub-title">
                     We are experts in trendy men’s haircuts.
                     We work quickly, carefully and with style.
                 </p>
             </div>
-            <ul class="list">
-                <li class="list-item">
-                    <button type="button">Back</button>
+            <ul class="slider list">
+                <li class="slider-item">
+                    <button type="button" class="slider-btn">Back</button>
                 </li>
                 <li>
-                    <button type="button">Forward</button>
+                    <button type="button" class="slider-btn active">Forward</button>
                 </li>
             </ul>
         </section>
@@ -84,9 +89,9 @@
                 </li>
             </ul>
             <div>
-                <p class="upper-title">ABOUT</p>
-                <h2>Best Barbershop in <br />your city</h2>
-                <p class="sub-title">If you want to add more confidence to your image, 
+                <p class="under-title">ABOUT</p>
+                <h2 class="title">Best Barbershop in <br />your city</h2>
+                <p class="sub-title text">If you want to add more confidence to your image, 
                     you should definitely visit us.
                 </p>
                 <p class="desc">
@@ -100,9 +105,9 @@
             </div>
         </section>
         <!-- Price -->
-        <section class="section">
-            <p class="upper-title">spend your time with the best masters</p>
-            <h2 class="title">Services and prices</h2>
+        <section class="section price">
+            <p class="under-title inscription">spend your time with the best masters</p>
+            <h2 class="title price-title">Services and prices</h2>
             <ul class="item">
                 <li class="list-item">
                     <ul class="inner-item">
@@ -145,40 +150,40 @@
                     </ul>
                 </li>
             </ul>
-            <button type="button">ONLINE-BOOKING</button>
+            <button type="button" class="btn">ONLINE-BOOKING</button>
         </section>
         <!-- Benefits -->
         <section class="section">
             <ul class="item">
                 <li class="list-item">
                     <p class="quantity">600 <sup>&#43;</sup></p>
-                    <p class="desc">Satisfied customers per day</p>
+                    <p class="desc-benefits">Satisfied customers per day</p>
                 </li>
                 <li class="list-item">
                     <p class="quantity">50 <sup>&#43;</sup></p>
-                    <p class="desc">Awards for excellent service</p>
+                    <p class="desc-benefits">Awards for excellent service</p>
                 </li>
                 <li class="list-item">
                     <p class="quantity">20 <sup>&#43;</sup></p>
-                    <p class="desc">Kyiv’s best barbers</p>
+                    <p class="desc-benefits">Kyiv’s best barbers</p>
                 </li>
                 <li class="list-item">
                     <p class="quantity">100 <sup>&#43;</sup></p>
-                    <p class="desc">Gifts for regular customers</p>
+                    <p class="desc-benefits">Gifts for regular customers</p>
                 </li>
             </ul>
             <div>
-                <p class="upper-title">old traditional school</p>
+                <p class="under-title">old traditional school</p>
                 <h2 class="title">Why people come to us?</h2>
-                <p class="sub-title">Only good things are said about us. But it's better to 
+                <p class="sub-title text">Only good things are said about us. But it's better to 
                     see and feel 1 time than read 10 times. 
                 </p>
             </div>
         </section>
         <!-- Barbers -->
-        <section class="section">
-            <p class="upper-title">for true enjoyers of the atmosphere</p>
-            <h2 class="section-title">Our barbers</h2>
+        <section class="section barber-section">
+            <p class="under-title">for true enjoyers of the atmosphere</p>
+            <h2 class="title">Our barbers</h2>
             <ul class="item">
                 <li class="list-item">
                     <img class="img" src="./images/Barbers/img1.jpg" 
@@ -191,22 +196,22 @@
                     <ul class="socials">
                         <li class="socials-item">
                             <a href="https://www.instagram.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                Instagrm
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://twitter.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                twitter
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://facebook.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                facebook
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://linkedin.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                linkedin
+                                
                             </a>
                         </li>
                     </ul>
@@ -222,22 +227,22 @@
                     <ul class="socials">
                         <li class="socials-item">
                             <a href="https://www.instagram.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                Instagrm
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://twitter.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                twitter
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://facebook.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                facebook
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://linkedin.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                linkedin
+                                
                             </a>
                         </li>
                     </ul>
@@ -253,22 +258,22 @@
                     <ul class="socials">
                         <li class="socials-item">
                             <a href="https://www.instagram.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                Instagrm
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://twitter.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                twitter
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://facebook.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                facebook
+                                
                             </a>
                         </li>
                         <li class="socials-item">
                             <a href="https://linkedin.com/" class="social-link" target="_blank" rel="noopener norefferer">
-                                linkedin
+                                
                             </a>
                         </li>
                     </ul>
@@ -277,8 +282,8 @@
         </section>
         <!-- Gallery -->
         <section class="gallery">
-            <p>in Latin, "barba" means "beard"</p>
-            <h2 hidden>Our gallery</h2>
+            <h2 class="visually-hidden">Our gallery</h2>
+            <p class="under-title">in Latin, "barba" means "beard"</p>
             <ul class="list">
                 <li class="list-item">
                     <img src="./images/Gallery/gallery-img-1.jpg" alt="" class="img">
@@ -295,17 +300,17 @@
             </ul>
         </section>
        <!-- Booking & Contacts -->
-        <div class="div">
+        <div class="div book">
             <section class="section">
-                <h2 class="section-title">Online-booking</h2>
+                <h2 class="title booking-title">Online-booking</h2>
             </section>
             <section class="section">
-                <h2 class="section-title">Contacts</h2>
-                <address>
+                <h2 class="title contact-title">Contacts</h2>
+                <address class="address">
                     <ul class="list">
                         <li class="list-item">
                             <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F,+7,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.3958141,30.501413,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4c8c951889799:0x58e0259a6e5b738d!8m2!3d50.3958107!4d30.5036017" 
-                                class="link"
+                                class="link address-link"
                                 rel="noopener norefferer"
                             >
                                 st. Vasilkovaya, 7A
@@ -313,26 +318,26 @@
                             </a>
                         </li>
                         <li class="list-item">
-                            <a href="tel=+380441111111" class="link">
+                            <a href="tel=+380441111111" class="link address-link">
                                 +38 044 111 11 11
                             </a>
                         </li>
                         <li class="list-item">
-                            <a href="mailto=barbershop@email.com" class="link">
+                            <a href="mailto=barbershop@email.com" class="link address-link">
                                 barbershop@email.com
                             </a>
                         </li>
                     </ul>
                 </address>
                 <div>
-                    <p class="upper-title">working hours</p>
+                    <p class="under-title">working hours</p>
                     <p class="contacts-schelude">Every day from 9:00 to 22:00</p>
                 </div>
             </section>
         </div>
     </main>
     <!-- Footer -->
-    <footer>
+    <footer >
         <p>&#169; Copiright 2020</p>
         <ul>
             <li>
