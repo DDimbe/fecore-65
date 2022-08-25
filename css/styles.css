@@ -19,7 +19,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--bg-white-color);
+    background-color: var(--bg-color); 
 }
 h1,
 h2,
@@ -30,21 +30,55 @@ ul {
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /* header */
 .header {
+    margin-top: 32px;
+}
+.head {
+    display: flex;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.logo {
+    margin-right: 70px;
+}
+.header-list {
+    display: flex;
+}
+.list-item {
+    gap: 30px;
     
 }
+
 .list {
     list-style-type: none;
 }
 .list-link {
     color: var(--text-white-color);
+    padding-top: 52px;
+    padding-bottom: 52px;
+    gap: 30px;
 
     font-weight: 600;
     font-size: 12px;
     line-height: calc(16 / 12);
     letter-spacing: 0.1em;
     text-decoration: none;
+
 }
 .list-link:hover,
 .list-link:focus,
@@ -55,12 +89,17 @@ ul {
 }
 .link {
     color: var(--text-white-color);
+    padding-top: 52px;
+    padding-bottom: 52px;
 
     text-decoration: none;
     font-weight: 600;
     font-size: 12px;
     line-height: calc(16 / 12);
     letter-spacing: 0.1em;
+}
+.link-tel {
+    margin-right: 45px;
 }
 .btn {
     color: var(--text-white-color);
@@ -78,9 +117,7 @@ ul {
     border: 1px solid var(--acent-color);
     border-radius: 25px;
 }
-.btn:nth-child(2n + 3) {
-    color: var(--primary-text-color);
-}
+
 /* hero */
 .hero {
     background-color: var(--bg-color);
@@ -142,6 +179,9 @@ ul {
 }
 .slider-btn.active {
     color: var(--text-white-color);
+}
+.about-btn {
+    color: var(--primary-text-color);
 }
 .under-title {
     color: var(--primary-text-color);
@@ -260,4 +300,22 @@ ul {
     font-size: 18px;
     line-height: calc(30 / 18);
     letter-spacing: 0.02em;
+}
+.work-title {
+    color: var(--text-white-color);
+}
+.contacts-schelude {
+    color: var(--secondary-text-color);
+
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    letter-spacing: 0.02em;
+}
+.footer-copi {
+    color: var(--secondary-text-color);
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.2em;
 }
